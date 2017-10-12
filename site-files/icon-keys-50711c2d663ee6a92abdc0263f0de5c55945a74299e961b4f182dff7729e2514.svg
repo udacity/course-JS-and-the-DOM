@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 58 58" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <circle id="b" cx="42" cy="42" r="42"/>
+    <filter id="a" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feOffset dx="8" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 0.180392157 0 0 0 0 0.239215686 0 0 0 0 0.28627451 0 0 0 0.2 0" in="shadowBlurOuter1"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(-12 -12)">
+    <use fill="black" filter="url(#a)" xlink:href="#b"/>
+    <use fill="#FFFFFF" xlink:href="#b"/>
+    <g transform="translate(28 23)">
+      <path stroke="#AA79DB" stroke-width="2" d="M-5.8,24 L-5.94545455,24 L-9,20 L-5.94545455,16 L9.74988063,16 C11.3500188,11.9026431 15.3360351,9 20,9 C26.0751322,9 31,13.9248678 31,20 C31,26.0751322 26.0751322,31 20,31 C15.3360351,31 11.3500188,28.0973569 9.74988063,24 L3.1,24 L2.5,22.5 L-1,24 L-3,22 L-5.8,24 Z" stroke-linejoin="round" transform="rotate(-90 11 20)"/>
+      <path stroke="#AA79DB" stroke-width="2" d="M24.6291866,15.9723323 L28.4110221,19.7541678 L27.5,21.7781746 L30.7885822,22.131728 L31.495689,25.6672619 L34.3241161,25.6672619 L36.0918831,27.4350288 L35.3847763,32.3847763 L30.4350288,33.0918831 L19.8795754,22.5364297 C22.2274773,21.0798399 23.9669731,18.7355153 24.6291866,15.9723323 Z" stroke-linejoin="round"/>
+      <circle cx="11" cy="10" r="3" fill="#AA79DB"/>
+    </g>
+  </g>
+</svg>

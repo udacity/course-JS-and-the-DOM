@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="16" viewBox="0 0 22 16" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <rect id="a" width="22" height="16" rx="3"/>
+    <ellipse id="c" cx="4.595238" cy="4.733333" rx="3.928571" ry="4"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="#fff">
+      <use xlink:href="#a"/>
+    </mask>
+    <use fill="#FFF" xlink:href="#a"/>
+    <path fill="#52C162" d="M0 0h22v16H0z" mask="url(#b)"/>
+    <path fill="#F6D660" d="M2.28092 8.36813c-.30497-.203312-.304212-.533453 0-.73626l8.166885-5.44459c.30497-.203313.80018-.202808 1.10439 0l8.166885 5.44459c.30497.203312.304212.533453 0 .73626l-8.166885 5.44459c-.30497.203313-.80018.202808-1.10439 0L2.28092 8.36813z" mask="url(#b)"/>
+    <g transform="translate(6.333 3.267)" mask="url(#b)">
+      <mask id="d" fill="#fff">
+        <use xlink:href="#c"/>
+      </mask>
+      <use fill="#4758A9" xlink:href="#c"/>
+      <path stroke="#FFF" stroke-width="1.333333" d="M.47619 4.2C1 3.666667 2.893694 3.916146 4.666667 4.2c1.772972.283854 3.673048 1.073165 4.190476 1.6" stroke-linecap="square" mask="url(#d)" transform="rotate(6 4.667 4.843)"/>
+    </g>
+  </g>
+</svg>

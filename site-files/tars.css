@@ -1,0 +1,446 @@
+/*! Flickity v2.0.9
+http://flickity.metafizzy.co
+---------------------------------------------- */
+.flickity-enabled {
+  position: relative; }
+
+.flickity-enabled:focus {
+  outline: none; }
+
+.flickity-viewport {
+  overflow: hidden;
+  position: relative;
+  height: 100%; }
+
+.flickity-slider {
+  position: absolute;
+  width: 100%;
+  height: 100%; }
+
+/* draggable */
+.flickity-enabled.is-draggable {
+  -webkit-tap-highlight-color: transparent;
+  tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.flickity-enabled.is-draggable .flickity-viewport {
+  cursor: move;
+  cursor: -webkit-grab;
+  cursor: grab; }
+
+.flickity-enabled.is-draggable .flickity-viewport.is-pointer-down {
+  cursor: -webkit-grabbing;
+  cursor: grabbing; }
+
+/* ---- previous/next buttons ---- */
+.flickity-prev-next-button {
+  position: absolute;
+  top: 50%;
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
+  background: white;
+  background: rgba(255, 255, 255, 0.75);
+  cursor: pointer;
+  /* vertically center */
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+.flickity-prev-next-button:hover {
+  background: white; }
+
+.flickity-prev-next-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 5px #09F; }
+
+.flickity-prev-next-button:active {
+  opacity: 0.6; }
+
+.flickity-prev-next-button.previous {
+  left: 10px; }
+
+.flickity-prev-next-button.next {
+  right: 10px; }
+
+/* right to left */
+.flickity-rtl .flickity-prev-next-button.previous {
+  left: auto;
+  right: 10px; }
+
+.flickity-rtl .flickity-prev-next-button.next {
+  right: auto;
+  left: 10px; }
+
+.flickity-prev-next-button:disabled {
+  opacity: 0.3;
+  cursor: auto; }
+
+.flickity-prev-next-button svg {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  width: 60%;
+  height: 60%; }
+
+.flickity-prev-next-button .arrow {
+  fill: #333; }
+
+/* ---- page dots ---- */
+.flickity-page-dots {
+  position: absolute;
+  width: 100%;
+  bottom: -25px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  line-height: 1; }
+
+.flickity-rtl .flickity-page-dots {
+  direction: rtl; }
+
+.flickity-page-dots .dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 8px;
+  background: #333;
+  border-radius: 50%;
+  opacity: 0.25;
+  cursor: pointer; }
+
+.flickity-page-dots .dot.is-selected {
+  opacity: 1; }
+
+app {
+  height: 100%; }
+
+#rupertChatWrapper {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font: normal normal 100% "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+  background-color: #fff;
+  overflow: hidden; }
+  #rupertChatWrapper textarea:focus,
+  #rupertChatWrapper input:focus {
+    outline: none; }
+  #rupertChatWrapper *::-webkit-input-placeholder {
+    color: #c3cdd4; }
+  #rupertChatWrapper *:-moz-placeholder {
+    /* FF 4-18 */
+    color: #c3cdd4; }
+  #rupertChatWrapper *::-moz-placeholder {
+    /* FF 19+ */
+    color: #c3cdd4; }
+  #rupertChatWrapper *:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #c3cdd4; }
+  #rupertChatWrapper .clearfix:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both; }
+  #rupertChatWrapper ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; }
+  #rupertChatWrapper a {
+    color: #000;
+    cursor: pointer;
+    text-decoration: none; }
+  #rupertChatWrapper div#chatview {
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    overflow: hidden !important; }
+  #rupertChatWrapper .view {
+    width: 100%;
+    transition: opacity 0.1s ease;
+    box-sizing: border-box;
+    background-color: #fff; }
+  #rupertChatWrapper .view.v-enter,
+  #rupertChatWrapper .view.v-leave {
+    opacity: 0; }
+  #rupertChatWrapper .chat-body-view {
+    flex: 1 1 auto;
+    position: relative;
+    overflow-y: scroll;
+    padding: 10px 10px 0 10px; }
+  #rupertChatWrapper .item {
+    padding: 2px 0 2px 40px;
+    position: relative;
+    transition: background-color 0.2s ease;
+    display: block; }
+  #rupertChatWrapper .item p {
+    margin: 2px 0; }
+  #rupertChatWrapper .item-view .item {
+    padding-left: 0;
+    margin-bottom: 30px; }
+  #rupertChatWrapper #powered-by {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    width: 100%;
+    padding-right: 0;
+    text-align: right;
+    font-size: 0.8em;
+    font-weight: 200; }
+  #rupertChatWrapper #powered-by a {
+    color: rgba(66, 66, 66, 0.6); }
+  #rupertChatWrapper #powered-by svg {
+    height: 1.3em;
+    margin-bottom: -0.27em;
+    margin-left: 0.1em;
+    margin-right: 0.2em;
+    fill: rgba(66, 66, 66, 0.6); }
+  #rupertChatWrapper send-view {
+    flex: 0 0 auto; }
+  #rupertChatWrapper .send-view {
+    display: flex;
+    padding: 0.7em;
+    padding-bottom: 1.3em;
+    min-height: 45px;
+    background-color: #f0f3f5;
+    border-top: 1px solid #c3cdd4; }
+  #rupertChatWrapper .send-view form {
+    align-items: flex-end;
+    width: 100%;
+    margin-top: -2px; }
+  #rupertChatWrapper form input {
+    padding: 0px;
+    width: 100%;
+    margin: 0 0 4px 0;
+    border: 0;
+    font-size: 1.1em;
+    color: #2a2a2a;
+    background-color: #f0f3f5; }
+  #rupertChatWrapper form input#m[disabled] {
+    cursor: not-allowed; }
+  #rupertChatWrapper .msg-area {
+    padding-bottom: 10px; }
+  #rupertChatWrapper .msg-timestamp {
+    text-align: center;
+    color: #8e8e93;
+    font-size: 12px;
+    padding-bottom: 10px; }
+  #rupertChatWrapper .msg-container {
+    max-width: 85%;
+    float: left; }
+  #rupertChatWrapper .msg-container.user {
+    float: right; }
+  #rupertChatWrapper .msg-container.bot {
+    float: left; }
+  #rupertChatWrapper .msg-container + .msg-container {
+    margin-top: 10px; }
+  #rupertChatWrapper .msg-body {
+    padding: 10px 15px;
+    border-radius: 18px;
+    color: #606273;
+    background-color: #eff3f6;
+    position: relative;
+    white-space: pre-line;
+    word-break: break-word; }
+  #rupertChatWrapper .user .msg-body {
+    background-color: #337ac7;
+    color: #fff; }
+  #rupertChatWrapper .waiting-indicator-container .msg-container {
+    padding-bottom: 10px; }
+  #rupertChatWrapper .waiting-indicator-container svg {
+    fill: #1197ff;
+    width: 3em;
+    height: 1em; }
+  #rupertChatWrapper .quick-reply-view {
+    flex: 0 0 auto;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 100%;
+    text-align: center;
+    background: transparent;
+    white-space: nowrap; }
+  #rupertChatWrapper .quick-reply-container {
+    display: inline-block;
+    padding: 4px 12px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    margin-right: 10px;
+    color: #0084ff;
+    cursor: pointer; }
+  #rupertChatWrapper .quick-reply-body img {
+    height: 12px;
+    width: 12px;
+    border-radius: 6px; }
+  #rupertChatWrapper .msg-generic {
+    width: 100%;
+    max-width: 100%; }
+  #rupertChatWrapper .slide-cover {
+    position: relative; }
+  #rupertChatWrapper .msg-generic .msg-body {
+    background: transparent;
+    padding: 0;
+    /*float: left;
+    max-width: calc(100% - 20px);*/
+    border-radius: 4px; }
+  #rupertChatWrapper .slide {
+    white-space: nowrap;
+    position: relative;
+    left: 0;
+    transition: left 500ms ease-out; }
+  #rupertChatWrapper .generic-item {
+    width: 240px;
+    min-height: 100%;
+    margin-right: 3px;
+    position: relative;
+    overflow: visible;
+    border: 1px solid #eeeeee;
+    border-radius: 4px;
+    padding: 6px;
+    background: #fff;
+    vertical-align: top;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column; }
+  #rupertChatWrapper .generic-item .background-img {
+    background-position: 50% 15%;
+    background-size: cover;
+    border-bottom: 1px solid #eeeeee; }
+  #rupertChatWrapper .generic-item .background-img::before {
+    content: "";
+    width: 1px;
+    margin-left: -1px;
+    float: left;
+    height: 0;
+    padding-top: 66.66667%; }
+  #rupertChatWrapper .generic-item .background-img::before {
+    content: "";
+    display: table;
+    clear: both; }
+  #rupertChatWrapper .generic-item .card__content {
+    padding-top: 5px; }
+  #rupertChatWrapper .generic-item .title {
+    font-weight: bold;
+    font-size: 14px;
+    white-space: normal;
+    padding-bottom: 6px; }
+  #rupertChatWrapper .generic-item .subtitle {
+    white-space: normal;
+    font-size: 12px;
+    color: #b1b1b1;
+    margin-bottom: 6px; }
+  #rupertChatWrapper .generic-item .call-to-actions {
+    color: #1197FF;
+    font-size: 13px;
+    text-align: center;
+    margin-top: auto;
+    border-radius: 4px; }
+  #rupertChatWrapper .generic-item .button {
+    white-space: normal;
+    padding: 10px 5px;
+    cursor: pointer; }
+  #rupertChatWrapper .generic-item .button + .button {
+    border-top: 1px solid #eeeeee; }
+  #rupertChatWrapper .generic-item .call-to-actions .button:first-of-type {
+    padding-top: 4px;
+    padding-bottom: 10px; }
+  #rupertChatWrapper .generic-item .call-to-actions .button:last-of-type {
+    padding-top: 10px;
+    padding-bottom: 4px; }
+  #rupertChatWrapper .persistent-menu {
+    cursor: pointer;
+    max-width: 1.8em;
+    margin-right: 0.6em; }
+  #rupertChatWrapper .persistent-menu span {
+    display: block;
+    position: relative; }
+  #rupertChatWrapper .persistent-menu .ham-menu {
+    width: 20px;
+    height: 20px; }
+  #rupertChatWrapper .persistent-menu .ham-menu:before {
+    content: '';
+    height: 3px;
+    width: 20px;
+    background: #1197ff;
+    border-radius: 1.5px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    box-shadow: 0 6px #1197ff, 0 12px #1197ff; }
+  #rupertChatWrapper .menu {
+    position: absolute;
+    bottom: 48px;
+    z-index: 100;
+    min-width: 25%;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16) !important;
+    padding: 10px 10px 1px 10px;
+    margin-left: 3px;
+    border-radius: 4px;
+    background: #fff; }
+  #rupertChatWrapper .menu small {
+    line-height: 1em;
+    font-size: 0.75em;
+    font-weight: bold; }
+  #rupertChatWrapper .menu-item {
+    padding: 10px 5px;
+    border-top: 1px solid #ccc;
+    cursor: pointer;
+    transition: left 500ms ease-out; }
+  #rupertChatWrapper .menu-item:hover {
+    background-color: #efefef; }
+  #rupertChatWrapper .menu.rupTooltip {
+    padding-bottom: 10px;
+    min-width: initial; }
+  #rupertChatWrapper .menu.rupTooltip .menu-item {
+    display: none; }
+  #rupertChatWrapper .arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid #fff;
+    position: absolute;
+    bottom: -7px; }
+  #rupertChatWrapper .image-item img {
+    width: 100%; }
+  #rupertChatWrapper .carousel {
+    background: transparent; }
+  #rupertChatWrapper .carousel-cell {
+    counter-increment: carousel-cell; }
+  #rupertChatWrapper .carousel:not(.flickity-enabled) .title {
+    font-weight: normal; }
+  #rupertChatWrapper .flickity-viewport {
+    overflow: hidden; }
+  #rupertChatWrapper .carousel .flickity-prev-next-button {
+    top: 40%; }
+  #rupertChatWrapper .carousel .flickity-prev-next-button.previous {
+    left: -5px; }
+  #rupertChatWrapper .carousel .flickity-prev-next-button.next {
+    right: -5px; }
+  #rupertChatWrapper .quick-reply-view .slide .flickity-prev-next-button {
+    width: 30px;
+    height: 30px;
+    background: rgba(66, 66, 66, 0.3); }
+  #rupertChatWrapper .quick-reply-view .slide .flickity-prev-next-button:hover {
+    background: rgba(66, 66, 66, 0.6); }
+  #rupertChatWrapper .quick-reply-view .slide .flickity-prev-next-button.previous {
+    top: 13px;
+    left: 3px; }
+  #rupertChatWrapper .quick-reply-view .slide .flickity-prev-next-button.next {
+    top: 13px;
+    right: 3px; }
+  #rupertChatWrapper .flickity-prev-next-button:disabled {
+    display: none; }
+  #rupertChatWrapper .msg-container message-markedup a {
+    color: #0084ff; }
+  #rupertChatWrapper .msg-container.user message-markedup a {
+    color: white; }
