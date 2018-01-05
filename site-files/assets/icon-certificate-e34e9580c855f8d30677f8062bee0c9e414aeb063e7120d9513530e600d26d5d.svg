@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="26" viewBox="0 0 28 26" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <rect id="a" width="581" height="600" rx="6"/>
+    <filter id="b" width="110.5%" height="110.2%" x="-5.2%" y="-4.9%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 0.180392157 0 0 0 0 0.239215686 0 0 0 0 0.28627451 0 0 0 0.1 0" in="shadowBlurOuter1"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(-58 -370)">
+    <mask id="c" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <use fill="black" filter="url(#b)" xlink:href="#a"/>
+    <use fill="#FFFFFF" xlink:href="#a"/>
+    <g mask="url(#c)">
+      <g transform="translate(58 371)">
+        <path fill="#2E3D49" fill-rule="nonzero" d="M2,18 L26,18 L26,2 L2,2 L2,18 Z M0,1.99079514 C0,0.891309342 0.899897516,0 1.99124431,0 L26.0087557,0 C27.1084896,0 28,0.898212381 28,1.99079514 L28,18.0092049 C28,19.1086907 27.1001025,20 26.0087557,20 L1.99124431,20 C0.891510444,20 0,19.1017876 0,18.0092049 L0,1.99079514 Z"/>
+        <polygon fill="#2E3D49" fill-rule="nonzero" points="17.227 24.768 16.32 22.46 14.011 21.553 15.002 19.28 14.011 17.006 16.32 16.099 17.227 13.791 19.5 14.782 21.773 13.791 22.68 16.099 24.989 17.006 23.998 19.28 24.989 21.553 22.68 22.46 21.773 24.768 19.5 23.777"/>
+        <polygon fill="#FFFFFF" points="19.5 21.596 20.671 22.106 21.138 20.917 22.326 20.45 21.816 19.28 22.326 18.109 21.138 17.642 20.671 16.454 19.5 16.964 18.329 16.454 17.862 17.642 16.674 18.109 17.184 19.28 16.674 20.45 17.862 20.917 18.329 22.106"/>
+        <polygon fill="#2E3D49" fill-rule="nonzero" points="8 12 20 12 20 10 8 10"/>
+        <polygon fill="#2E3D49" fill-rule="nonzero" points="5 8 23 8 23 6 5 6"/>
+      </g>
+    </g>
+  </g>
+</svg>

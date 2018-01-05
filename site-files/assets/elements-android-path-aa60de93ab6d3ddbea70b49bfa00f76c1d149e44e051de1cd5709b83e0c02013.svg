@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1487" height="548" viewBox="0 0 1487 548">
+  <defs>
+    <filter id="a" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feGaussianBlur stdDeviation="5.2763" in="SourceGraphic"/>
+    </filter>
+    <filter id="b" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feGaussianBlur stdDeviation="5.2763" in="SourceGraphic"/>
+    </filter>
+    <filter id="c" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feGaussianBlur stdDeviation="5.2763" in="SourceGraphic"/>
+    </filter>
+    <filter id="d" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feGaussianBlur stdDeviation="5.8508" in="SourceGraphic"/>
+    </filter>
+    <filter id="e" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feGaussianBlur stdDeviation="10" in="SourceGraphic"/>
+    </filter>
+    <filter id="f" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feGaussianBlur stdDeviation="10" in="SourceGraphic"/>
+    </filter>
+    <filter id="g" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feGaussianBlur stdDeviation=".671" in="SourceGraphic"/>
+    </filter>
+    <filter id="h" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feGaussianBlur stdDeviation=".671" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <path stroke="#FFF" stroke-width="4" d="M1295.3228 449.7926c3.629 3.6306 3.629 9.5153 0 13.1458l-57.3848 57.3746c-3.6312 3.6305-9.518 3.6305-13.148 0l-57.385-57.3746c-3.6322-3.6305-3.6322-9.5152 0-13.1458l57.385-57.3724c3.63-3.6305 9.5168-3.6305 13.148 0l57.3848 57.3724z" stroke-linecap="round" stroke-linejoin="round" opacity=".5849" filter="url(#a)" transform="rotate(60 1231.363 456.367)"/>
+    <path stroke="#FFF" stroke-width="4" d="M232.5442 325.8734c3.584 3.5856 3.584 9.3974 0 12.983l-56.6734 56.6633c-3.5862 3.5855-9.4 3.5855-12.9852 0l-56.6735-56.6634c-3.587-3.5855-3.587-9.3973 0-12.983l56.6737-56.661c3.585-3.5856 9.399-3.5856 12.9852 0l56.6733 56.661z" stroke-linecap="round" stroke-linejoin="round" opacity=".25" filter="url(#b)" transform="rotate(-6 169.377 332.366)"/>
+    <path stroke="#FFF" stroke-width="4" d="M353.5792 47.989c2.2945 2.2955 2.2945 6.0162 0 8.3116l-36.282 36.2754c-2.2957 2.2954-6.0177 2.2954-8.313 0l-36.2818-36.2754c-2.2965-2.2954-2.2965-6.016 0-8.3115l36.282-36.274c2.295-2.2953 6.017-2.2953 8.313 0l36.2818 36.274z" stroke-linecap="round" stroke-linejoin="round" opacity=".5849" filter="url(#c)" transform="rotate(-74 313.14 52.146)"/>
+    <ellipse cx="983.8006" cy="426.7991" fill="#FFF" opacity=".4" filter="url(#d)" rx="7.8006" ry="7.7991"/>
+    <ellipse cx="1440.0066" cy="306" fill="#FFF" opacity=".3" filter="url(#e)" rx="46.0087" ry="46"/>
+    <ellipse cx="35.0066" cy="104" fill="#FFF" opacity=".3" filter="url(#f)" rx="35.0066" ry="35"/>
+    <path stroke="#FFF" stroke-width="4" d="M458.3957 454.5816c.968.9688.968 2.539 0 3.508l-15.3078 15.31c-.9688.9688-2.539.9688-3.5075 0l-15.3078-15.31c-.969-.969-.969-2.5392 0-3.508l15.3078-15.3096c.9683-.9688 2.5387-.9688 3.5073 0l15.3077 15.3096z" stroke-linecap="round" stroke-linejoin="round" opacity=".2" filter="url(#g)" transform="rotate(13 441.334 456.336)"/>
+    <path stroke="#FFF" stroke-width="4" d="M1256.4503 139.9505c1.4662 1.4674 1.4662 3.8458 0 5.313l-23.1854 23.189c-1.4674 1.4674-3.8458 1.4674-5.3125 0l-23.1854-23.189c-1.4675-1.4672-1.4675-3.8456 0-5.313l23.1855-23.188c1.4667-1.4674 3.845-1.4674 5.3123 0l23.1853 23.188z" stroke-linecap="round" stroke-linejoin="round" opacity=".2" filter="url(#h)" transform="rotate(57 1230.608 142.607)"/>
+  </g>
+</svg>

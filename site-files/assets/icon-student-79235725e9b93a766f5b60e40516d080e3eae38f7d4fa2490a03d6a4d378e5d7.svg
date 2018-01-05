@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="28" viewBox="0 0 24 28" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <rect id="a" width="480" height="647" rx="2"/>
+    <filter id="b" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 0.180392157 0 0 0 0 0.239215686 0 0 0 0 0.28627451 0 0 0 0.1 0" in="shadowBlurOuter1"/>
+    </filter>
+    <mask id="c" width="480" height="647" x="0" y="0" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(-267 -1299)">
+    <polygon fill="#FAFBFC" points="1420 244 1420 772 0 772" transform="translate(0 981)"/>
+    <g transform="translate(220 1057)">
+      <use fill="black" filter="url(#b)" xlink:href="#a"/>
+      <use fill="#FFFFFF" stroke="#DBE2E8" stroke-width="2" mask="url(#c)" xlink:href="#a"/>
+      <g transform="translate(40 237)">
+        <rect width="38" height="38" fill="none"/>
+        <path fill="#2E3D49" d="M30,33 L8,33 C7.7,33 7.5,32.9 7.3,32.7 C7.1,32.5 7,32.2 7,31.9 C7,31.6 7.7,24.1 13,20.7 C13.3,20.5 13.8,20.5 14.1,20.7 C15.4,21.5 17.2,22 19,22 C20.8,22 22.6,21.5 23.9,20.7 C24.2,20.5 24.7,20.5 25,20.7 C30.3,24.2 31,31.6 31,31.9 C31,32.2 30.9,32.5 30.7,32.7 C30.5,32.9 30.3,33 30,33 L30,33 Z M9.2,31 L28.9,31 C28.5,29.1 27.5,25 24.5,22.7 C22.8,23.5 21,24 19,24 C17,24 15.2,23.5 13.6,22.7 C10.6,25 9.5,29.1 9.2,31 L9.2,31 Z M19,20 C17.1,20 15.4,19.2 14,17.8 C12.7,16.3 12,14.6 12,12.5 C12,10.5 12.7,8.7 14,7.2 C15.4,5.7 17,5 19,5 C20.9,5 22.6,5.8 24,7.2 C25.3,8.7 26,10.4 26,12.5 C26,14.5 25.3,16.3 24,17.8 L24,17.8 C22.6,19.2 20.9,20 19,20 L19,20 Z M19,7 C17.6,7 16.5,7.5 15.5,8.6 C14.5,9.7 14,11 14,12.5 C14,14 14.5,15.3 15.5,16.4 C16.5,17.5 17.6,18 19,18 C20.4,18 21.5,17.5 22.5,16.4 L22.5,16.4 C23.5,15.3 24,14 24,12.5 C24,11 23.5,9.7 22.5,8.6 C21.5,7.5 20.4,7 19,7 L19,7 Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

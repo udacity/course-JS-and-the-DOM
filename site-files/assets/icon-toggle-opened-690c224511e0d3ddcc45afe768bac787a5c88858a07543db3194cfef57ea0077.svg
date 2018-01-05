@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+  <g fill="none" fill-rule="evenodd">
+    <text fill="#02B3E4" font-family="OpenSans-Semibold, Open Sans" font-size="13" font-weight="500" letter-spacing="2" transform="translate(-2 -6)">
+      <tspan x="24" y="14">See Less Details</tspan>
+    </text>
+    <path stroke="#02B3E4" stroke-width="2" d="M1 6h10" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

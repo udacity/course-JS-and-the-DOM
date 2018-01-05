@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="122" height="72" viewBox="0 0 122 72" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <path id="a" d="M858 234h72v122h-72z"/>
+    <mask id="b" width="72" height="122" x="0" y="0" fill="#fff">
+      <use xlink:href="#a"/>
+    </mask>
+  </defs>
+  <use fill="none" fill-rule="evenodd" stroke="#7D97AD" stroke-width="4" mask="url(#b)" transform="rotate(-90 348 582)" xlink:href="#a" opacity=".5" stroke-dasharray="5 8"/>
+</svg>

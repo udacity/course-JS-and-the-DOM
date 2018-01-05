@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1440px" height="400px" viewBox="0 0 1440 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>March Madness - Signed Out</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="March-Madness---Signed-Out">
+            <g id="Hero" transform="translate(-153.000000, -19.000000)">
+                <g id="Group" transform="translate(787.000000, 0.000000)" stroke="#2E3D49" stroke-width="5">
+                    <ellipse id="Oval-1" fill="#F95C3C" cx="85.6211454" cy="85.5" rx="85.6211454" ry="85.5"></ellipse>
+                    <path d="M82.9630598,0 C38.1635003,22.1877938 49.8754359,145.41325 103.134109,168.750778" id="Path-395"></path>
+                    <path d="M139.868392,19.4479397 C66.9625551,24.4429273 94.3791988,120.051127 148.691561,141.712821" id="Path-396"></path>
+                    <path d="M5.30396476,48.302584 C30.1534738,29.3904379 36.4889455,107.719921 24.5004754,142.247788" id="Path-397" transform="translate(17.840205, 93.823009) rotate(-356.000000) translate(-17.840205, -93.823009) "></path>
+                    <path d="M1.35706911,98.3051974 C31.3428208,58.4324876 97.5994631,52.2700325 171.440597,81.2468715" id="Path-398"></path>
+                </g>
+                <ellipse id="Oval-4" fill="#DBE2E8" opacity="0.489913713" cx="458.59248" cy="306.5" rx="34" ry="3.5"></ellipse>
+                <ellipse id="Oval-4-Copy-2" fill="#DBE2E8" cx="1400.83704" cy="366.859444" rx="45" ry="3.5"></ellipse>
+                <ellipse id="Oval-4-Copy" fill="#DBE2E8" opacity="0.341009795" cx="873" cy="229.5" rx="80" ry="3.5"></ellipse>
+                <g id="Group-Copy-2" transform="translate(458.000000, 230.407520) rotate(-86.000000) translate(-458.000000, -230.407520) translate(415.500000, 187.907520)" stroke="#2E3D49" stroke-width="4">
+                    <ellipse id="Oval-1" fill="#02CCBA" cx="42.4220226" cy="42.2359611" rx="42.4220226" ry="42.2359611"></ellipse>
+                    <path d="M41.1050423,-1.70530257e-13 C18.9085636,10.9605006 24.7113825,71.8323787 51.0990303,83.3608338" id="Path-395"></path>
+                    <path d="M69.2994712,9.60704592 C33.1774005,12.0745091 46.7613052,59.303798 73.671016,70.004412" id="Path-396"></path>
+                    <path d="M2.62791291,23.8608896 C14.9399,14.5185192 18.0788854,53.2123319 12.1390542,70.2686787" id="Path-397" transform="translate(8.839143, 46.347426) rotate(-356.000000) translate(-8.839143, -46.347426) "></path>
+                    <path d="M0.672376154,48.5615731 C15.5291762,28.8649389 48.3568237,25.820761 84.9422987,40.1349674" id="Path-398"></path>
+                </g>
+                <path d="M396.287793,238.975126 C360.307977,247.657764 330.834668,277.646027 330.834668,302.310089 C316.999305,285.526271 272.014355,164 0.592480109,164" id="Path-407" stroke="#91DAEE" stroke-dasharray="3"></path>
+                <path d="M1428.22266,123.668583 C1360.06641,141.283557 1339.11632,201.004481 1329.44141,222.686163 C1321.21094,141.245292 1196.85943,-2.94966315 965,0.756225605" id="Path-407-Copy" stroke="#91DAEE" stroke-dasharray="3" transform="translate(1196.611328, 111.686163) scale(-1, 1) translate(-1196.611328, -111.686163) "></path>
+                <g id="Group-Copy" transform="translate(1400.000000, 297.907520) rotate(-282.000000) translate(-1400.000000, -297.907520) translate(1332.000000, 230.407520)" stroke="#2E3D49" stroke-width="4">
+                    <ellipse id="Oval-1" fill="#02B3E4" cx="67.6633768" cy="67.3666076" rx="67.6633768" ry="67.3666076"></ellipse>
+                    <path d="M65.5627854,-1.13686838e-12 C30.1592707,17.4820632 39.4148011,114.573069 81.5032553,132.961023" id="Path-395"></path>
+                    <path d="M110.533066,15.323295 C52.9181498,19.2589133 74.5845581,94.5899084 117.505706,111.657451" id="Path-396"></path>
+                    <path d="M4.19153662,38.05826 C23.8292287,23.1571239 28.835929,84.8739839 19.3618631,112.078958" id="Path-397" transform="translate(14.098486, 73.924419) rotate(-356.000000) translate(-14.098486, -73.924419) "></path>
+                    <path d="M1.07244394,77.455996 C24.7691278,46.0397481 77.1294196,41.1842663 135.483468,64.0155101" id="Path-398"></path>
+                </g>
+                <ellipse id="Oval-5-Copy-3" stroke="#2E3D49" stroke-width="2" fill="#FFFFFF" cx="595" cy="115" rx="2" ry="2"></ellipse>
+                <circle id="Oval-5-Copy-4" stroke="#2E3D49" stroke-width="2" fill="#15C26B" cx="1231.5" cy="199.5" r="5.5"></circle>
+                <g id="Spark" transform="translate(1064.819353, 121.819353) rotate(-28.000000) translate(-1064.819353, -121.819353) translate(1049.819353, 106.819353)" stroke="#FFAE0C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M14.5,-1.70530257e-12 L14.5,8.33333333" id="Line"></path>
+                    <path d="M14.5,21.6666667 L14.5,30" id="Line-Copy-3"></path>
+                    <path d="M30,14.5 L21.6666667,14.5" id="Line-Copy"></path>
+                    <path d="M8.33333333,14.5 L-1.27471367e-11,14.5" id="Line-Copy-2"></path>
+                </g>
+                <g id="Spark" transform="translate(661.242878, 212.242878) rotate(-6.000000) translate(-661.242878, -212.242878) translate(653.742878, 204.742878)" stroke="#15C26B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M7.19814624,9.98312544e-13 L7.19814624,3.99897013" id="Line"></path>
+                    <path d="M7.19814624,10.3973224 L7.19814624,14.3962925" id="Line-Copy-3"></path>
+                    <path d="M14.3962925,7.19814624 L10.3973224,7.19814624" id="Line-Copy"></path>
+                    <path d="M3.99897013,7.19814624 L-1.59250391e-12,7.19814624" id="Line-Copy-2"></path>
+                </g>
+                <g id="Spark-Copy" transform="translate(1523.242878, 197.242878) rotate(-6.000000) translate(-1523.242878, -197.242878) translate(1515.742878, 189.742878)" stroke="#7D97AD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M7.19814624,4.29878355e-13 L7.19814624,3.99897013" id="Line"></path>
+                    <path d="M7.19814624,10.3973224 L7.19814624,14.3962925" id="Line-Copy-3"></path>
+                    <path d="M14.3962925,7.19814624 L10.3973224,7.19814624" id="Line-Copy"></path>
+                    <path d="M3.99897013,7.19814624 L-2.04725126e-12,7.19814624" id="Line-Copy-2"></path>
+                </g>
+                <g id="Spark" transform="translate(347.797959, 177.797959) rotate(15.000000) translate(-347.797959, -177.797959) translate(338.797959, 168.797959)" stroke="#02B3E4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M8.89428222,4.56079619e-13 L8.89428222,4.9412679" id="Line"></path>
+                    <path d="M8.89428222,12.8472965 L8.89428222,17.7885644" id="Line-Copy-3"></path>
+                    <path d="M17.7885644,8.89428222 L12.8472965,8.89428222" id="Line-Copy"></path>
+                    <path d="M4.9412679,8.89428222 L-5.48006085e-13,8.89428222" id="Line-Copy-2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

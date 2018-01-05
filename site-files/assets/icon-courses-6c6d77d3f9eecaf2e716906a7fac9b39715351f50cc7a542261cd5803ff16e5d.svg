@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="26" viewBox="0 0 28 26" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <rect id="a" width="480" height="647" rx="2"/>
+    <filter id="b" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 0.180392157 0 0 0 0 0.239215686 0 0 0 0 0.28627451 0 0 0 0.1 0" in="shadowBlurOuter1"/>
+    </filter>
+    <mask id="c" width="480" height="647" x="0" y="0" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(-265 -1361)">
+    <polygon fill="#FAFBFC" points="1420 244 1420 772 0 772" transform="translate(0 981)"/>
+    <g transform="translate(220 1057)">
+      <use fill="black" filter="url(#b)" xlink:href="#a"/>
+      <use fill="#FFFFFF" stroke="#DBE2E8" stroke-width="2" mask="url(#c)" xlink:href="#a"/>
+      <g fill="#2E3D49" transform="translate(40 298)">
+        <g transform="translate(5 6)">
+          <path d="M2 7.99079514L2 7.99079514 2 24.0092049C2 24.0005711 1.99943011 24 1.99124431 24L26.0087557 24C25.9998289 24 26 23.9998294 26 24.0092049L26 7.99079514C26 7.99942888 26.0005699 8 26.0087557 8L1.99124431 8C2.0001711 8 2 8.00017056 2 7.99079514L2 7.99079514zM0 7.99079514C0 6.89130934.899897516 6 1.99124431 6L26.0087557 6C27.1084896 6 28 6.89821238 28 7.99079514L28 24.0092049C28 25.1086907 27.1001025 26 26.0087557 26L1.99124431 26C.891510444 26 0 25.1017876 0 24.0092049L0 7.99079514 0 7.99079514zM5 5L22 5C22.5522847 5 23 4.55228475 23 4 23 3.44771525 22.5522847 3 22 3L5 3C4.44771525 3 4 3.44771525 4 4 4 4.55228475 4.44771525 5 5 5L5 5zM9 2L19 2C19.5522847 2 20 1.55228475 20 1 20 .44771525 19.5522847 0 19 0L9 0C8.44771525 0 8 .44771525 8 1 8 1.55228475 8.44771525 2 9 2L9 2z"/>
+          <path d="M12.8671007,18.8617947 C12.3882142,19.1411452 12,18.9242463 12,18.3705589 L12,13.6074723 C12,13.0568198 12.3800204,12.8321064 12.8671007,13.1162365 L16.9247641,15.4832069 C17.4036506,15.7625573 17.4118444,16.2106942 16.9247641,16.4948244 L12.8671007,18.8617947 Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
