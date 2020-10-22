@@ -1,0 +1,54 @@
+.header {
+  background-color: midnightblue;
+  min-height: 50px;
+  border-bottom: 10px solid black;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 10;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-list-item {
+  text-decoration: none;
+
+  margin-right: 10px;
+  margin-top: 10px;
+  list-style: none;
+}
+
+.content {
+  padding: 10px;
+}
+
+.section-button {
+  margin: 0 auto;
+  color: red;
+  display: block;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.spacer {
+  height: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 30px;
+    font-style: bolder;
+  }
+  .nav-list-item {
+    font-size: 10px;
+    margin-right: 8px;
+    margin-top: 5px;
+  }
+}
