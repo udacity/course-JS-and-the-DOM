@@ -1,0 +1,14 @@
+.hero--homepage .new-card {
+    background: #bdea09;
+    border-radius: 10rem;
+}
+
+.page-homepage .new-hero::before {
+    background: linear-gradient(160deg, #2015ff, #bdea09 100%);
+}
+
+@media screen and (min-width: 30rem) {
+    .page-homepage .new-hero::before {
+        background: linear-gradient(160deg, #2015ff, #bdea09 100%);
+    }
+}
