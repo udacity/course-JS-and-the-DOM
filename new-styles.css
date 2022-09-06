@@ -12,3 +12,20 @@
         background: linear-gradient(160deg, #2015ff, #bdea09 100%);
     }
 }
+
+.add-rem-fav {
+    width: 13.75rem;
+    color: #fff;
+    background-color: #02b3e4;
+    border: 0.125rem solid transparent;
+    transition: all 0.3s ease;
+}
+
+.add-rem-fav:hover {
+    outline: none;
+    color: white;
+    border-color: transparent;
+    background-color: #029fcb;
+    box-shadow: 2px 4px 8px 0px rgb(46 61 73 / 20%);
+    transition: all 0.3s ease;
+}
