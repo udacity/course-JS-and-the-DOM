@@ -1,3 +1,21 @@
+
+
+const btns = document.querySelectorAll(".options button");
+btns.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    document.querySelector(".hands .player-hand").src = "rock.png";
+    document.querySelector(".hands .computer-hand").src = "rock.png";
+    playerHand.classList.add('shakePlayer')
+    computerHand.classList.add('shakeComputer')
+    const playerA = btn.querySelector("label").innerText;
+    const playerB = options[getRandomInt()];
+    setTimeout(()=>compare(playerA, playerB),1000)
+    
+  });
+});
+
+
+
 const options = ["rock", "paper", "scissor"];
 let score = {
   you: 0,
